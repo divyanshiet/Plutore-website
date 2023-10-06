@@ -1,0 +1,343 @@
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    /* color: white; */
+    }
+    #wrapper
+   {
+    position: relative;
+    height:100vh;
+    overflow-y:auto;
+    overflow-x:hidden;
+   }
+   @font-face {
+    font-family: mont;
+    src: url(./assets/Montserrat/Montserrat-VariableFont_wght.ttf);
+    }
+    section
+    {
+        position: relative;
+        background-color: #222222;
+        height: 110%;
+        width: 100%;
+        font-family: mont;
+    }
+    .section-2
+    {
+        position: relative;
+        background-image: url(./assets/png/BG\ Stars.png);
+        height: 110%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 170px;
+
+    }
+    .star1
+    {
+        position: absolute;
+        top:45%;
+        margin-left: 42%;
+    }
+    .star2
+    {
+        position: absolute;
+        top:5%;
+        margin-left: 80%;
+    }
+    .content
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 140px;
+    }
+    .content-1
+    {
+        margin-top: -1%;
+    }
+    .content-2
+    {
+        font-size: 60px;
+        margin-right: 58%;
+        font-weight: 700;
+        
+    }
+    .content-3
+    {
+        font-size: 25px;
+        margin-right: 20%;
+        font-weight: 100;
+    }
+    .content-4
+    {
+        font-size: 25px;
+        font-weight: 100;
+
+    }
+    .ht
+    {
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+
+    }
+    .part, .do{
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .bgstar
+    {
+        position: absolute;
+        width: 100%;
+    }
+    .content-5
+    {
+        position: relative;
+        display: flex;
+        gap: 20px;
+        justify-content: space-around;
+        margin-left: 10%;
+        margin-right: 10%;
+        top: 5%;
+    }
+    .s1
+    {
+      display: flex;
+      justify-content: center;
+      font-size: 100px;
+    }
+    .s2
+    {
+        font-size: 20px;
+    }
+    .head
+    {
+        font-size: 25px;
+        background: linear-gradient(
+            #4157F4,#B4BDFF);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-weight: 700;
+      
+    }
+    .cont
+    {
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    .s-1
+    {
+        position: relative;
+        flex: 1;
+        border: 1px solid;
+        border-color:  linear-gradient(
+            #4157F4,#B4BDFF);
+        border-radius: 25px;
+        padding: 10px;
+        height: 180px;
+        background-image: linear-gradient(
+            #080121 , #996BF9 );
+    }
+    .live
+    {
+        color: #FF9595;
+    }
+    .img-1
+    {
+        position: absolute;
+        height: 350px;
+        width: 350px;
+        top:40%;
+        margin-left: -8%;
+    }
+    .img-2
+    {
+        position: absolute;
+        height: 350px;
+        width: 350px;
+        top:53%;
+        margin-left: -8%;
+    }
+    .img-3
+    {
+        position: absolute;
+        height: 250px;
+        width: 250px;
+        top:53%;
+        margin-left: 90%;
+        
+    }
+    .img2{
+        position: absolute;
+        width: 386px;
+        height: 211px;
+        left: 557px;
+       
+    }
+    
+    .content-7
+    {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid;
+        border-color:  linear-gradient(
+            #4157F4,#B4BDFF);
+            width: 500px;
+            padding: 15px;
+            height: 800px;
+            gap: 15px;
+            border-radius: 25px;
+            bottom: 15px;
+    }
+    .c11
+    {
+        display: flex;
+        justify-content: center;
+        font-family: mont;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .c12
+    {
+        font-size: 22px;
+    }
+    .c2
+    {
+        font-size: 50px;
+        background: linear-gradient(
+            #4157F4,#B4BDFF);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        
+    }
+    .section-3,.section-4
+    {
+        position: relative;
+        background-image: url(./assets/BG\ Stars.png);
+        height: 140%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 170px;
+    }
+    .content-8
+    {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid;
+        border-color:  linear-gradient(
+            #4157F4,#B4BDFF);
+            width: 500px;
+            /* height: 700px; */
+            padding: 15px;
+            top: 85px;
+            gap: 15px;
+            border-radius: 25px;
+    }
+    .content-9
+    {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid;
+        border-color:  linear-gradient(
+            #4157F4,#B4BDFF);
+            width: 500px;
+            height: 700px;
+            gap: 15px;
+            border-radius: 25px;
+            padding: 18px;
+    }
+    .content-10
+    {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: mont;
+        font-size: 40px;
+        font-weight: 700;
+        
+    }
+    .button11
+    {
+        width:250px;
+        height: 50px;
+       border-radius: 25px;
+       background-color: #4157F4;
+       font-size: 20px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .so, .for{
+        background: linear-gradient(
+            #4157F4,#B4BDFF);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .bg1
+    {
+        position: absolute;
+        height: 500px;
+        width: 1450px;
+    }
+    .bg2
+    {
+        position: absolute;
+        top: 13%;
+        height: 650px;
+        width: 130px;
+    }
+    .bg3
+    {
+        position: absolute;
+        height: 180px;
+        width: 180px;
+        margin-left: 80%;
+    }
+    .bg4
+    {
+        position: absolute;
+        top: -40%;
+        scale: 0.7;
+        margin-left: -14%;
+    }
+    .bg5
+    {
+        position: absolute;
+        height: 280px;
+        width: 310px;
+        top: -5%;
+        margin-left: 80%;
+    }
+    .img
+    {
+        height: 1000px;
+        width: 700px;
+        scale: 0.7;
+    }
+    .oka
+    {
+        position: absolute;
+        font-size: 28px;
+        top: 400px;
+        margin-left: 35%;
+        font-weight: 700;
+        color: red;
+    }
